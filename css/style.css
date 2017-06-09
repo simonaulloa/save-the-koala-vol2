@@ -1,0 +1,186 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+/*primera seccion*/
+.first-section{
+	background-image: url(../img/portada.jpg);
+	width: 100%; /*esto quieredecir que se utilizara el 100% del alto de la pantalla*/
+	background-size: cover;
+	height: 100vh;	
+}
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+    margin-right: 10%;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+     text-shadow: 1px 2px #1b1b1c; /* sombra al texto */
+}
+.navbar-left{
+	font-size: 18px;
+	color: white;
+    margin: 2%;
+}
+.caja1{
+	margin-top: 20%;
+	color: white;
+}
+.caja1a{
+	color: white;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #203803;
+    border-color: #203803;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0e1901;
+    border-color: #0e1901;
+}
+/*segunda seccion*/
+.caja2 img{
+	margin-top: 10%;
+	margin-bottom: 30%;
+	color: white;
+}
+.caja2A{
+	margin-top: 20%;
+}
+.caja2A .tittle-second{
+	color: #a89f68;
+	padding: 15px;
+}
+
+/*tercera seccion*/
+.third-section{
+	background-color: #a89f68;
+}
+.caja3{
+	margin-top: 10%;
+    margin-bottom: 20%;
+	color: white;
+}
+.caja3A img{
+	margin-top: 20%;
+    margin-bottom: 20%;
+    border: 10px solid white;
+}
+.caja3 h3{
+	color: #41521f
+} 
+.icono{
+	text-align: center;
+}
+.icono2{
+	font-size: 60px;
+	padding: 20px;
+	color: #a89f68;
+}
+.tittle1{
+text-align: center;
+padding: 60px;
+font-size: 20px;
+color: #a89f68;
+}
+.tittle2{
+text-align: center;
+padding: 60px;
+font-size: 20px;
+color: #41521f;
+}
+.text1{
+	margin-bottom:100px;
+}
+.text2{
+	padding: 0 0 0 15px;
+}
+.text3{
+padding: 0px 0px 10px 0px !important
+}
+.datos{
+	background-color: #a89f68;
+}
+.bloque1{
+	border-bottom: 1px solid #fff;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+}
+.bloque2{
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+}
+.bloque1 .texto1{
+	vertical-align: top; /* ajuste el signo $ arriba; solo sirve son inline y table */
+}
+.bloque3{
+	text-align: center;
+	padding-bottom: 60px;
+}
+.texto1{
+	color: #fff;
+}
+.texto2{
+	font-size: 72px;
+	color: #fff;
+}
+.texto3{
+	color: #fff;
+}
+.texto4{}
+.boton{
+	background-color: #41521f;
+    border-color: #41521f;
+    color: #fff;
+    font-size: 18px;
+}
+/*cuarta seccion*/
+.quarter-section{
+	background-image: url(../img/all.jpg);
+	width: 100%; /*esto quieredecir que se utilizara el 100% del alto de la pantalla*/
+	background-size: cover;
+	height: 100vh;
+	color: white;	
+}
+.caja4{
+	margin-top: 20%;
+    margin-bottom: 20%;
+}
+.caja4 .no{
+	color: white;
+}
+/*sexta seccion*/
+.contenedorseis{
+	margin-top: 10%;
+    margin-bottom: 10%;
+}
+footer{
+	color: #a89f68;
+	background-color: #41521f;  
+}
+footer .ultimotexto{
+	color: white;
+}
+ul{ /* le queite los puntitos al ul*/
+	 list-style: none;
+}
+@media (max-width: 768px){
+	.bloque1{
+	}
+	.tittle1, .tittle2{
+    padding: 2px;
+}	
+}
+@media (max-width: 768px){
+	.caja3{
+		margin-bottom: 0;
+		margin-top: 20%;
+		color: white;
+	}
+	.caja3A img {
+		margin-top: 0;
+    	margin-bottom: 20%;
+    	border: 10px solid white;
+}
