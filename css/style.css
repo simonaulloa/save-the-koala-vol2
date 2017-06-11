@@ -30,12 +30,12 @@ army green: 41521F;
 .caja1a{
 	color: white;
 }
-.btn-primary {
+.btn-default {
     color: #fff;
     background-color: #203803;
     border-color: #203803;
 }
-.btn-primary:hover {
+.btn-default:hover {
     color: #fff;
     background-color: #0e1901;
     border-color: #0e1901;
@@ -55,6 +55,12 @@ army green: 41521F;
 }
 
 /*tercera seccion*/
+	/*modal seccion*/
+	.modal-title{
+    color: black;
+    margin: 0;
+    }
+    /* fin arreglos modal seccion*/
 .third-section{
 	background-color: #a89f68;
 }
@@ -150,6 +156,17 @@ padding: 0px 0px 10px 0px !important
 }
 .caja4 .no{
 	color: white;
+}
+/*quinta seccion*/
+.abajo-uno {
+    color: black;
+    margin: 0;
+    }
+
+.carousel, .carousel-inner .item img {
+	width: 100%; /*esto quieredecir que se utilizara el 100% del alto de la pantalla*/
+	background-size: cover;
+    height: 500px;
 }
 /*sexta seccion*/
 .contenedorseis{
