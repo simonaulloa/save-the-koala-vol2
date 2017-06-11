@@ -8,6 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/d8b5ae2cc3.js"></script>
+    
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- falta link tipografia... -->
 	
@@ -45,7 +46,7 @@
 		</div>
 		<div class="row btns">
 			<div class="col-md-2 col-xs-4">
-			<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="ACA SE CAMBIA EL TEXTO QUE LLEVA EL ALERT">TEXTO BOTON</button>
+			<button type="button" class="btn btn-info btn-lg" data-toggle="tooltip" data-placement="bottom" title="Hola, soy un botón">See More</button>
 				<!--<button type="button" class="btn btn-primary btn-lg btn-block">See more</button>-->
 			</div>
 		</div>
@@ -94,28 +95,6 @@
 					<h3><strong>Save Koalas From Possible Extinction!</strong></h3>
 					<p>Loss of koala habitat is the major threat facing koalas today. Since white settlement of Australia, roughly 80% of the koala’s habitat has been destroyed and of what remains, most occurs on privately owned land and almost none is protected.</p>				
 					 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Read More</button>
-					 <!-- Modal -->
-
-					  <div class="modal fade">
-					  <div class="modal-dialog" role="document">
-					    <div class="modal-content">
-					      <div class="modal-header">
-					        <h5 class="modal-title">Modal title</h5>
-					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					          <span aria-hidden="true">&times;</span>
-					        </button>
-					      </div>
-					      <div class="modal-body">
-					        <p>Modal body text goes here.</p>
-					      </div>
-					      <div class="modal-footer">
-					        <button type="button" class="btn btn-primary">Save changes</button>
-					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					      </div>
-					    </div>
-					  </div>
-					</div>
-
 			</div>
 			<div class="col-md-6 col-xs-12 caja3A">
 				<img src="img/cosita.jpg" alt="koalita" class="img-responsive">
@@ -257,20 +236,7 @@
 					<div class="bloque2">Public API access</div>
 					<div class="bloque3"><!--<button type="button" class="btn btn-default boton">DONATE</button>-->
 						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">DONATE</button>
-						 <!-- Modal -->
-						<div class="modal fade" id="myModal2" role="dialog">
-						    <div class="modal-dialog">
-						      <!-- Modal content-->
-						      <div class="modal-content">
-						        <div class="modal-header">
-						          <h4 class="modal-title abajo-uno">ERROR 400</h4>
-						        </div>
-						        <div class="modal-footer">
-						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						        </div>
-						      </div>  
-					    	</div>
-					  	</div>
+						 
 
 					</div>
 				</div>
@@ -284,20 +250,7 @@
 					<div class="bloque2">Public API access</div>
 					<div class="bloque3"><!--<button type="button" class="btn btn-default boton">DONATE</button>-->
 					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">DONATE</button>
-						 <!-- Modal -->
-						  <div class="modal fade" id="myModal" role="dialog">
-						    <div class="modal-dialog">
-						      <!-- Modal content-->
-						      <div class="modal-content">
-						        <div class="modal-header">
-						          <h4 class="modal-title abajo-uno">Tu donación se realizó con éxito</h4>
-						        </div>
-						        <div class="modal-footer">
-						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						        </div>
-						      </div>  
-					    	</div>
-					  	</div>
+						 
 					</div>
 				</div>
 			</div>
@@ -308,7 +261,13 @@
 					<div class="bloque1">3 T-Shirt</div>
 					<div class="bloque1">3 visits per month</div>
 					<div class="bloque2">Public API access</div>
-					<div class="bloque3"><button type="button" class="btn btn-default boton">DONATE</button></div>
+					<div class="bloque3">
+						<button type="button" class="btn btn-info btn-lg" data-toggle="collapse" data-target="#demo">DONATE</button>
+						  <div id="demo" class="collapse">
+						    Por el momento no podemos realizar tu solicitud
+						  </div>
+						<!--<button type="button" class="btn btn-default boton">DONATE</button>-->
+					</div>
 				</div>
 			</div>
 		</div>
@@ -358,6 +317,34 @@
 		</div>
 	</div>
 </footer>
+<!-- Modal  -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Tu donación se realizó con éxito</h4>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>  
+	</div>
+	</div>
 
+	<!-- Modal 2-->
+<div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title abajo-uno">ERROR 400</h4>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>  
+	</div>
+	</div>
 </body>
 </html>

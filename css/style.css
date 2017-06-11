@@ -30,16 +30,21 @@ army green: 41521F;
 .caja1a{
 	color: white;
 }
-.btn-default {
+/*.btn-default {
     color: #fff;
     background-color: #203803;
     border-color: #203803;
 }
-.btn-default:hover {
+.btn-default:hover:before {
     color: #fff;
     background-color: #0e1901;
     border-color: #0e1901;
 }
+.btn-default:enabled{
+    color: #fff;
+    background-color: #203803;
+    border-color: #203803;
+}*/
 /*segunda seccion*/
 .caja2 img{
 	margin-top: 10%;
@@ -136,12 +141,7 @@ padding: 0px 0px 10px 0px !important
 	color: #fff;
 }
 .texto4{}
-.boton{
-	background-color: #41521f;
-    border-color: #41521f;
-    color: #fff;
-    font-size: 18px;
-}
+
 /*cuarta seccion*/
 .quarter-section{
 	background-image: url(../img/all.jpg);
@@ -183,6 +183,38 @@ footer .ultimotexto{
 ul{ /* le queite los puntitos al ul*/
 	 list-style: none;
 }
+#demo{
+	background-color: #41521f;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 20px;
+    color: white;
+}
+/*estilo botones*/
+.btn-lg {
+	background-color: #41521f;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.btn-lg:enabled{
+    color: #fff;
+    background-color: #203803;
+    border-color: #203803;
+}
+.btn-default {
+	background-color: #41521f;
+    color: #fff;
+}
+.btn-default:enabled {
+	background-color: #41521f;
+    color: #fff;
+}
+/*prueba tooltip
+.hola{
+	background-color: #42b9f4;
+}*/
 @media (max-width: 768px){
 	.bloque1{
 	}
